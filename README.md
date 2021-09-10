@@ -1,5 +1,6 @@
-# DesignX
+# DesignX ( X for Extensions )
 Collection of Design & Layout extensions to speed up making complex user interfaces ✨
+
 
 ## Features
 
