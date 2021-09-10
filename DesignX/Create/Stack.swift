@@ -48,9 +48,6 @@ public extension UIStackView {
         //colors
         for (index, view) in subviews.enumerated() {
             let color = pattern.set(colors, to: index)
-            if view is FormTextField || view is FormButton {
-                // do nothing
-            } else {
         
                 switch color {
                 case .hex(let hexString):
@@ -60,8 +57,6 @@ public extension UIStackView {
                 case .color(let color):
                     view.backgroundColor = color
                 }
-                
-            }
         }
         
         //axis

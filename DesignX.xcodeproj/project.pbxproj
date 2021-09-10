@@ -102,8 +102,8 @@
 			children = (
 				41ADE64A26EC147E00D22546 /* DesignX.h */,
 				41ADE64B26EC147E00D22546 /* Info.plist */,
-				41ADE67A26EC14D600D22546 /* Create */,
 				41ADE67B26EC14D600D22546 /* Layout */,
+				41ADE67A26EC14D600D22546 /* Create */,
 				41ADE67926EC14D600D22546 /* Style  */,
 			);
 			path = DesignX;
