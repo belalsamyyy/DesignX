@@ -16,8 +16,8 @@ public enum PatternType {
     case last
 }
 
-class pattern {
-    public static func set<P>(_ arrOfProperty: [P], _ patternType: PatternType = .repeated, to index: Int) -> P {
+public class pattern {
+    static func set<P>(_ arrOfProperty: [P], _ patternType: PatternType = .repeated, to index: Int) -> P {
         var property: P
         var patternIndex = 0
         

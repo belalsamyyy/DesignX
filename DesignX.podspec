@@ -2,12 +2,11 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "DesignX"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Collection of Design & Layout extensions written in swift"
 
   spec.description  = <<-DESC
-  Collection of Design & Layout extensions written in swift for
-    Collection of Design & Layout extensions to speed up making complex user interfaces ✨
+      Collection of Design & Layout extensions to speed up making complex user interfaces ✨
                      DESC
 
   spec.homepage     = "https://github.com/belalsamyyy/DesignX"

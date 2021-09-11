@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
   
-extension UILabel {
+public extension UILabel {
     //MARK:- Func - create
-    public func create(string: [String], colors: [color], sizes: [CGFloat], weights: [UIFont.Weight], stroke: [CGFloat], alignment: NSTextAlignment) {
+    func create(string: [String], colors: [color], sizes: [CGFloat], weights: [UIFont.Weight], stroke: [CGFloat], alignment: NSTextAlignment) {
         
         let attributedText = NSMutableAttributedString()
         var baseAttributeText = NSAttributedString()
@@ -55,7 +55,7 @@ extension UILabel {
 }
 
 
-extension UIView {
+public extension UIView {
     //MARK:- Func - labelit
     func labelIt(_ text: String, _ size: CGFloat = 100, _ color: UIColor = .black) {
         let label = UILabel()

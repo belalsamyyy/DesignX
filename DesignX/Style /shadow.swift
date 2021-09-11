@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     func shadow(container: UIView, color: color, opacity: Float = 0.5, H: CGFloat = 20, W: CGFloat = 20, radius: CGFloat = 20, scale: Bool = true) {
     
         container.addSubview(self)

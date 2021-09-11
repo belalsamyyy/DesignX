@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     
 // MARK: - to make gradient layer change dynamically when orientation changes
 //    var gradientlayer = CAGradientLayer()
@@ -17,7 +17,7 @@ extension UIView {
 //        gradientlayer.frame = view.bounds
 //    }
 
-    public func fill(gradient: [color], locations: [NSNumber], opacity: CGFloat) -> CAGradientLayer {
+    func fill(gradient: [color], locations: [NSNumber], opacity: CGFloat) -> CAGradientLayer {
         alpha = opacity
 
         let gradientLayer = CAGradientLayer()

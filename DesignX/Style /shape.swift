@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     
         public enum Shape {
             case square(size: CGFloat, X: X, Y: Y)

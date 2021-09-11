@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     // stroke
     func stroke(color: color, width: CGFloat) {
         layer.borderWidth = width
