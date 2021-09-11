@@ -10,12 +10,12 @@ import UIKit
 
 public extension UIView {
     
-        public enum Shape {
+        enum Shape {
             case square(size: CGFloat, X: X, Y: Y)
             case circle(size: CGFloat, X: X, Y: Y)
         }
 
-        public func shape(_ shape: Shape) {
+        func shape(_ shape: Shape) {
             self.clipsToBounds = true
             
             switch shape {
