@@ -6,7 +6,7 @@ Collection of Design & Layout extensions to speed up making complex user interfa
 
 ### constraints and layouts 
 - [X] Constraints are active by default.
-- [X] No need to set `translatesAutoresizingMaskIntoConstraints` because `MagiConstraints` does it for you.
+- [X] No need to set `translatesAutoresizingMaskIntoConstraints` because `DesignX` does it for you.
 - [X] Satisfy all constraints `X-axis`, `Width`, `Y-axis` & `Height` in one line function `layout()`
 - [X] by covering different ways to statisfy each constraint using `enum` parameters
 - [X] also have `constraint()` function to use constraints individually 
@@ -28,7 +28,7 @@ Collection of Design & Layout extensions to speed up making complex user interfa
 
 ## Installation
 
-MagiConstriants is available through [CocoaPods](https://cocoapods.org). To install
+DesignX is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
