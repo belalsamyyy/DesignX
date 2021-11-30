@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "DesignX"
-  spec.version      = "1.2.0"
+  spec.version      = "1.2.1"
   spec.summary      = "Collection of Design & Layout extensions written in swift"
 
   spec.description  = <<-DESC
@@ -13,7 +13,7 @@ spec.name         = "DesignX"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Belal Samy" => "belalsamy10@gmail.com" }
 
-  spec.ios.deployment_target = "14.5"
+  spec.ios.deployment_target = "13.0"
   spec.swift_version = "5"
 
   spec.source        = { :git => "https://github.com/belalsamyyy/DesignX.git", :tag => "#{spec.version}" }
