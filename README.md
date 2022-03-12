@@ -1,7 +1,8 @@
 # DesignX ( X for Extensions ) 
 Collection of Design extensions' one-line-functions trying to mimic the tools of UI/UX like Adobe XD and Figma, so anything designer can do you can do without writting alot of code ✨
 
-![Simulator Screen Recording - iPhone 11 - 2022-03-12 at 17 21 04](https://user-images.githubusercontent.com/38237387/158025997-6a756e2d-0b1f-477a-a660-1cb69be07af3.gif)
+
+![DesignX-demo](https://media.githubusercontent.com/media/belalsamyyy/DesignX/master/Art/Demo.gif)
 
 ## Features
 
