@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "DesignX"
-  spec.version      = "1.2.1"
+  spec.version      = "1.2.2"
   spec.summary      = "Collection of Design & Layout extensions written in swift"
 
   spec.description  = <<-DESC

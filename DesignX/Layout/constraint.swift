@@ -10,11 +10,11 @@ import UIKit
 
 public extension UIView {
     
-    func constraint(W: W, H: H) {
+   func constraint(W: W, H: H) {
         translatesAutoresizingMaskIntoConstraints = false
         setW(W: W)
         setH(H: H)
-    }
+   }
        
    func constraint(X: X, Y: Y) {
          translatesAutoresizingMaskIntoConstraints = false
@@ -43,13 +43,13 @@ public extension UIView {
     }
    
    func constraint(XW: XW) {
-    translatesAutoresizingMaskIntoConstraints = false
-    setXW(XW: XW)
+       translatesAutoresizingMaskIntoConstraints = false
+       setXW(XW: XW)
    }
    
    func constraint(YH: YH) {
-   translatesAutoresizingMaskIntoConstraints = false
-   setYH(YH: YH)
+       translatesAutoresizingMaskIntoConstraints = false
+       setYH(YH: YH)
    }
 
     
